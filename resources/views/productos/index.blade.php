@@ -3,10 +3,10 @@
 @section('titulo', 'Nuestros Productos')
 
 @section('contenido')
-    {{-- Botón para crear un producto nuevo --}}
+    {{-- Botón para crear un producto nuevo
     <div class="flex justify-end m-4">
         <a href="{{ route('productos.create') }}" class="btn btn-outline">Nuevo producto</a>
-    </div>
+    </div> --}}
 
     <div class= "grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 m-6">
     @foreach($productos as $producto)

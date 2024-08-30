@@ -1,7 +1,14 @@
 <div class="navbar bg-base-100">
     <div class="flex-1">
-      <a class="btn btn-ghost text-xl">daisyUI</a>
+      <a class="btn btn-ghost text-xl">Pruebasena2025</a>
     </div>
+    <!-- Barra de Navegación Horizontal -->
+    <nav class="flex space-x-4">
+        <a href="{{ route('productos.index') }}" class="btn btn-ghost">Productos</a>
+        <a href="{{ route('productos.create') }}" class="btn btn-ghost">Nuevo Producto</a>
+        
+    </nav>
+    
     <div class="flex-none gap-2">
       <div class="form-control">
         <input type="text" placeholder="Search" class="input input-bordered w-24 md:w-auto" />
@@ -29,5 +36,3 @@
       </div>
     </div>
   </div>
-
-  
