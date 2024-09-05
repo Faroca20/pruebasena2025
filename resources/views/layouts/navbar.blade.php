@@ -5,8 +5,7 @@
     <!-- Barra de Navegación Horizontal -->
     <nav class="flex space-x-4">
         <a href="{{ route('productos.index') }}" class="btn btn-ghost">Productos</a>
-        <a href="{{ route('productos.create') }}" class="btn btn-ghost">Nuevo Producto</a>
-        
+        <a href="{{ route('productos.create') }}" class="btn btn-ghost">Nuevo Producto</a>        
     </nav>
     
     <div class="flex-none gap-2">
